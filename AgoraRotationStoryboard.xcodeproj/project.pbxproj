@@ -13,6 +13,18 @@
 		284AFDB928198AAE00E2BB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284AFDB728198AAE00E2BB0F /* Main.storyboard */; };
 		284AFDBB28198AB000E2BB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284AFDBA28198AB000E2BB0F /* Assets.xcassets */; };
 		284AFDBE28198AB000E2BB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284AFDBC28198AB000E2BB0F /* LaunchScreen.storyboard */; };
+		284AFDCA2819966100E2BB0F /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDC92819966100E2BB0F /* AINS */; };
+		284AFDCC2819966100E2BB0F /* AV1Dec in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDCB2819966100E2BB0F /* AV1Dec */; };
+		284AFDCE2819966100E2BB0F /* ContentInspect in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDCD2819966100E2BB0F /* ContentInspect */; };
+		284AFDD02819966100E2BB0F /* FullAudioFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDCF2819966100E2BB0F /* FullAudioFormat */; };
+		284AFDD22819966100E2BB0F /* ROIEnc in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDD12819966100E2BB0F /* ROIEnc */; };
+		284AFDD42819966100E2BB0F /* ReplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDD32819966100E2BB0F /* ReplayKit */; };
+		284AFDD62819966100E2BB0F /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDD52819966100E2BB0F /* RtcBasic */; };
+		284AFDD82819966100E2BB0F /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDD72819966100E2BB0F /* SpatialAudio */; };
+		284AFDDA2819966100E2BB0F /* SuperResolution in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDD92819966100E2BB0F /* SuperResolution */; };
+		284AFDDC2819966100E2BB0F /* VideoPreprocess in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDDB2819966100E2BB0F /* VideoPreprocess */; };
+		284AFDDE2819966100E2BB0F /* VirtualBackground in Frameworks */ = {isa = PBXBuildFile; productRef = 284AFDDD2819966100E2BB0F /* VirtualBackground */; };
+		284AFDE128199D2E00E2BB0F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AFDE028199D2E00E2BB0F /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,7 @@
 		284AFDBA28198AB000E2BB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284AFDBD28198AB000E2BB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284AFDBF28198AB000E2BB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284AFDE028199D2E00E2BB0F /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284AFDD22819966100E2BB0F /* ROIEnc in Frameworks */,
+				284AFDCC2819966100E2BB0F /* AV1Dec in Frameworks */,
+				284AFDDC2819966100E2BB0F /* VideoPreprocess in Frameworks */,
+				284AFDD42819966100E2BB0F /* ReplayKit in Frameworks */,
+				284AFDD62819966100E2BB0F /* RtcBasic in Frameworks */,
+				284AFDD82819966100E2BB0F /* SpatialAudio in Frameworks */,
+				284AFDD02819966100E2BB0F /* FullAudioFormat in Frameworks */,
+				284AFDDA2819966100E2BB0F /* SuperResolution in Frameworks */,
+				284AFDCA2819966100E2BB0F /* AINS in Frameworks */,
+				284AFDDE2819966100E2BB0F /* VirtualBackground in Frameworks */,
+				284AFDCE2819966100E2BB0F /* ContentInspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 				284AFDBA28198AB000E2BB0F /* Assets.xcassets */,
 				284AFDBC28198AB000E2BB0F /* LaunchScreen.storyboard */,
 				284AFDBF28198AB000E2BB0F /* Info.plist */,
+				284AFDE028199D2E00E2BB0F /* Config.swift */,
 			);
 			path = AgoraRotationStoryboard;
 			sourceTree = "<group>";
@@ -83,6 +108,19 @@
 			dependencies = (
 			);
 			name = AgoraRotationStoryboard;
+			packageProductDependencies = (
+				284AFDC92819966100E2BB0F /* AINS */,
+				284AFDCB2819966100E2BB0F /* AV1Dec */,
+				284AFDCD2819966100E2BB0F /* ContentInspect */,
+				284AFDCF2819966100E2BB0F /* FullAudioFormat */,
+				284AFDD12819966100E2BB0F /* ROIEnc */,
+				284AFDD32819966100E2BB0F /* ReplayKit */,
+				284AFDD52819966100E2BB0F /* RtcBasic */,
+				284AFDD72819966100E2BB0F /* SpatialAudio */,
+				284AFDD92819966100E2BB0F /* SuperResolution */,
+				284AFDDB2819966100E2BB0F /* VideoPreprocess */,
+				284AFDDD2819966100E2BB0F /* VirtualBackground */,
+			);
 			productName = AgoraRotationStoryboard;
 			productReference = 284AFDAE28198AAE00E2BB0F /* AgoraRotationStoryboard.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +149,9 @@
 				Base,
 			);
 			mainGroup = 284AFDA528198AAE00E2BB0F;
+			packageReferences = (
+				284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+			);
 			productRefGroup = 284AFDAF28198AAE00E2BB0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				284AFDB628198AAE00E2BB0F /* ViewController.swift in Sources */,
+				284AFDE128199D2E00E2BB0F /* Config.swift in Sources */,
 				284AFDB228198AAE00E2BB0F /* AppDelegate.swift in Sources */,
 				284AFDB428198AAE00E2BB0F /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +366,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +402,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		284AFDC92819966100E2BB0F /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AINS;
+		};
+		284AFDCB2819966100E2BB0F /* AV1Dec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AV1Dec;
+		};
+		284AFDCD2819966100E2BB0F /* ContentInspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ContentInspect;
+		};
+		284AFDCF2819966100E2BB0F /* FullAudioFormat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FullAudioFormat;
+		};
+		284AFDD12819966100E2BB0F /* ROIEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ROIEnc;
+		};
+		284AFDD32819966100E2BB0F /* ReplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ReplayKit;
+		};
+		284AFDD52819966100E2BB0F /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+		284AFDD72819966100E2BB0F /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = SpatialAudio;
+		};
+		284AFDD92819966100E2BB0F /* SuperResolution */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = SuperResolution;
+		};
+		284AFDDB2819966100E2BB0F /* VideoPreprocess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoPreprocess;
+		};
+		284AFDDD2819966100E2BB0F /* VirtualBackground */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284AFDC82819966100E2BB0F /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VirtualBackground;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 284AFDA628198AAE00E2BB0F /* Project object */;
 }
