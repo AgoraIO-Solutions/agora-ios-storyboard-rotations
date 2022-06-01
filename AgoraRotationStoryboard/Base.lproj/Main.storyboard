@@ -34,22 +34,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbX-AP-l7M">
+                                <rect key="frame" x="13" y="65" width="61" height="48"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Send Logs"/>
+                                <connections>
+                                    <action selector="sendLogs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NMj-fL-fPp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="lZI-C1-RVE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AbX-AP-l7M" secondAttribute="trailing" constant="208.5" id="68x-gC-Jl5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GFc-26-l34" secondAttribute="bottom" id="COX-mh-Hap"/>
                             <constraint firstItem="lZI-C1-RVE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="EoQ-0j-MX4"/>
+                            <constraint firstItem="AbX-AP-l7M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="H4B-98-HHl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GFc-26-l34" secondAttribute="trailing" id="QZM-BV-POU"/>
                             <constraint firstItem="GFc-26-l34" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="WRD-SU-0ec"/>
                             <constraint firstItem="Etf-8W-Tyb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Z2j-tg-hoI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lZI-C1-RVE" secondAttribute="trailing" constant="8" id="eRe-Wc-UTK"/>
                             <constraint firstItem="GFc-26-l34" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pmI-L0-fcN"/>
+                            <constraint firstItem="AbX-AP-l7M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="uVU-cU-E7K"/>
                             <constraint firstItem="Etf-8W-Tyb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xMO-Zg-S4b"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="localView" destination="lZI-C1-RVE" id="W9a-PW-cHj"/>
+                        <outlet property="logButton" destination="AbX-AP-l7M" id="N5X-NN-5Un"/>
                         <outlet property="remoteView" destination="GFc-26-l34" id="RDI-js-pso"/>
                         <outlet property="textLabel" destination="Etf-8W-Tyb" id="tQN-AB-do3"/>
                     </connections>
